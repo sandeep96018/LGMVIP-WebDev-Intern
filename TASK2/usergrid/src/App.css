@@ -1,0 +1,70 @@
+#brnd {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.services {
+    display: flex;
+    padding: auto;
+    margin-top: 5%;
+}
+
+.md {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    left: 50%;
+    background: white;
+}
+
+.stl {
+    background-color: rgb(132, 81, 180);
+    font-size: larger;
+    font-family: fantasy;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    border-radius: 20%;
+}
+
+.card1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-body {
+    background-color: rgb(118, 122, 124);
+}
+
+#view:hover {
+    background-color: black;
+}
+
+.card:hover,
+.card-img-top {
+    height: 110%;
+    width: 135%;
+    color: brown;
+    font-size: 1rem;
+}
+
+.clnts {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 81, 180);
+    margin-bottom: 0px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
